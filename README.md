@@ -19,7 +19,7 @@ After cloning the repo, run the following commands:
     npm install
     npm start 
     
-Open a browser in the following url:
+Open a browser at the following url:
 
     http://localhost:8080
     
