@@ -24,3 +24,7 @@ Open a browser at the following url:
     http://localhost:8080
     
 And there you have it, a minimal Angular 2 App up and running. You're all set!
+
+# Issues
+
+If you find some problem with the setup, please open an issue and i'll follow up. If you can include the full error message and your npm and node version. Link your repo with the issue as well if its publicly accessible.
