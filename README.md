@@ -3,7 +3,7 @@ An absolutelly minimal Angular 2 seed project, with source maps support and base
 
 # Purposes
 
-The simplest possible setup for starting with Angular 2. Ideal for quickly putting together a demo or for trying out a new concept.
+The simplest possible setup for getting started with Angular 2. Ideal for quickly putting together a demo or for trying out a new concept.
 
 # Technologies used
 
