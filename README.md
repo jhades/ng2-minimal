@@ -28,3 +28,8 @@ And there you have it, a minimal Angular 2 App up and running. You're all set!
 # Issues
 
 If you find some problem with the setup, please open an issue and i'll follow up. If you can include the full error message and your npm and node version. Link your repo with the issue as well if its publicly accessible.
+
+# Unit Testing
+Check the official unit testing seed repo - https://github.com/juliemr/ng2-test-seed and the corresponding talk [Testing strategies with Angular 2](https://www.youtube.com/watch?v=C0F2E-PRm44).
+
+
