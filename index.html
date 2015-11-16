@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular 2 Minimal</title>
+</head>
+<body>
+
+<app>Loading...</app>
+
+</body>
+
+<script src="/node_modules/es6-shim/es6-shim.min.js"></script>
+<script src="/node_modules/systemjs/dist/system.js"></script>
+<script src="/node_modules/angular2/bundles/angular2.dev.js"></script>
+
+
+<script>
+//    System.config({defaultJSExtensions: true});
+</script>
+
+
+<script>
+    //bootstrap the Angular2 application
+    System.import('dist/App.js').catch(console.log.bind(console));
+</script>
+
+</html>
