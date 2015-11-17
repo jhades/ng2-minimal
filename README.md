@@ -25,7 +25,9 @@ After cloning the repo, run the following commands:
     
 ### Installation Problems?
 
-npm installations sometimes fail, specially if behind corporate proxies (but it's getting better). Its advisable in general to upgrade your npm to version 3, specially if running on a windows box. This will avoid any problems with long file paths. If you are having generic npm installation problems, try the following after the installation fails:
+npm installations sometimes fail, specially if behind corporate proxies (but it's getting better). This is a general npm problem, not related to this repo specifically. 
+
+Its advisable in general to upgrade your npm to version 3, specially if running on a windows box. This will avoid any problems with long file paths. If you are having generic npm installation problems, try the following after the installation fails:
 
     npm cache clean
     npm install
