@@ -8,7 +8,7 @@ An absolutely minimal Angular 2 seed project with the following features:
 
 # Purposes
 
-This repo is meant to be an example of the simplest possible setup for getting started with Angular 2. It's ideal for quickly putting together a demo, or for trying out a new concept.
+This repo is meant to be the simplest possible way for getting started with Angular 2. It's ideal for quickly putting together a demo, or for trying out a new concept.
 
 # Technologies used
 
