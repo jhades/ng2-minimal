@@ -2,7 +2,7 @@
 An absolutely minimal Angular 2 seed project with the following features:
 
 - source maps support out of the box
-- includes the official Angular 2 Typescript typings
+- uses the official Angular 2 Typescript typings (bundled in npm)
 - works well on Windows boxes
 - based on npm scripts only
 
@@ -50,4 +50,7 @@ If you find some problem with the setup, please open an [issue](https://github.c
 # Unit Testing
 Check the official unit testing seed repo - https://github.com/juliemr/ng2-test-seed and the corresponding talk [Testing strategies with Angular 2](https://www.youtube.com/watch?v=C0F2E-PRm44).
 
+# Typings
+
+There are no legacy reference typing imports in this project, this uses the typings bundled in npm implicitly. For this its important to upgrade to Typescript 1.6, so that the new Typescript module resolution mechanism works, see this [comment](https://github.com/angular/angular/issues/5248#issuecomment-156886060) for more details.
 
