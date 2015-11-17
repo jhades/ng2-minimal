@@ -2,7 +2,7 @@
 An absolutely minimal Angular 2 seed project with the following features:
 
 - source maps support out of the box
-- includes the official Angular 2 Typescript typings
+- uses the official Angular 2 Typescript typings
 - works well on Windows boxes
 - based on npm scripts only
 
