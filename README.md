@@ -14,7 +14,7 @@ Besides Angular 2 and npm, this setup uses:
 
 # Installation 
 
-Is it advisabled to install Typescript globally, if not already installed:
+Is it advisable to install Typescript globally, if not already installed:
 
     npm install -g typescript
 
