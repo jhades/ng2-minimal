@@ -19,7 +19,16 @@ After cloning the repo, run the following commands:
     npm install
     npm start 
     
-Open a browser at the following url:
+# Problems installing ?
+
+npm installations sometimes fail. Its better in general to upgrade your npm to version 3, specially if running on a windows box. This will avoid problems with long paths. If you are having generic npm installation problems, try the following:
+
+    rm -rf node_modules
+    npm cache clean
+    npm install
+    npm start
+    
+After the installation is successful, open a browser at the following url:
 
     http://localhost:8080
     
