@@ -30,9 +30,7 @@ npm installations sometimes fail, specially if behind corporate proxies (but it'
     npm cache clean
     npm install
     
-This should resume the installation from the point it failed. 
-
-After the installation is successful, open a browser at the following url:
+This should resume the installation from the point it failed. After the installation is successful, open a browser at the following url:
 
     http://localhost:8080
     
