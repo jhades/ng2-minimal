@@ -56,3 +56,7 @@ Check the official unit testing seed repo - https://github.com/juliemr/ng2-test-
 
 There are no legacy reference typing imports in this project, this uses the typings bundled in npm implicitly. For this its important to upgrade to Typescript 1.6, so that the new Typescript module resolution mechanism works, see this [comment](https://github.com/angular/angular/issues/5248#issuecomment-156886060) for more details.
 
+# Credit
+
+This repo is based on the [ng2-play seed repo](https://github.com/pkozlowski-opensource/ng2-play), check it out.
+
