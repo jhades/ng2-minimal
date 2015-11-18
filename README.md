@@ -28,6 +28,12 @@ After cloning the repo, run the following commands:
     npm install
     npm start 
     
+After the installation is successful, run npm start and open a browser at the following url:
+
+    http://localhost:8080
+        
+And there you have it, a minimal Angular 2 App up and running. You're all set!
+    
 ### Installation Problems?
 
 npm installations sometimes fail, specially if behind corporate proxies (but it's getting better). This is a general npm problem, not related to this repo specifically. 
@@ -37,11 +43,7 @@ Its advisable in general to upgrade your npm to version 3, specially if running 
     npm cache clean
     npm install
     
-This will resume the installation from the point it failed (might be needed several times). After the installation is successful, run npm start and open a browser at the following url:
-
-    http://localhost:8080
-    
-And there you have it, a minimal Angular 2 App up and running. You're all set!
+This will resume the installation from the point it failed (might be needed several times). 
 
 # Issues
 
