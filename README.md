@@ -1,5 +1,5 @@
 # ng2-minimal
-An absolutely minimal Angular 2 seed project with the following features:
+A minimal Angular 2 seed project with the following features:
 
 - source maps support out of the box
 - uses the official Angular 2 Typescript typings (bundled in npm)
