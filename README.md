@@ -1,14 +1,9 @@
 # ng2-minimal
-A minimal Angular 2 seed project with the following features:
-
-- source maps support out of the box
-- uses the official Angular 2 Typescript typings (bundled in npm)
-- works well on Windows boxes
-- based on npm scripts only
+A minimal Angular 2 seed project with source maps support out of the box.
 
 # Installation 
 
-Its advisable to install Typescript globally, if not already installed:
+Its better to install Typescript globally, if not already installed:
 
     npm install -g typescript
 
@@ -17,7 +12,7 @@ After cloning the repo, run the following commands:
     npm install
     npm start 
     
-After the installation is successful, run npm start and open a browser at the following url:
+Open a browser at the following url:
 
     http://localhost:8080
         
