@@ -4,8 +4,8 @@
   "description": "A minimal Angular 2 seed with source maps support ",
   "main": "index.js",
   "scripts": {
-    "watch":"tsc -w",
-    "serve":"http-server -c-1 .",
+    "watch": "tsc -w",
+    "serve": "http-server -c-1 .",
     "start": "npm-run-all -p watch serve "
   },
   "repository": {
@@ -24,8 +24,12 @@
     "typescript": "^1.6.2"
   },
   "dependencies": {
-    "angular2": "^2.0.0-alpha.46",
-    "es6-shim": "^0.33.13",
-    "systemjs": "^0.19.6"
+    "angular2": "^2.0.0-beta.0",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.34.0",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.0",
+    "systemjs": "^0.19.9",
+    "zone.js": "^0.5.10"
   }
 }
