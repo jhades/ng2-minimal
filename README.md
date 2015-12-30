@@ -1,5 +1,5 @@
 # ng2-minimal
-A minimal Angular 2 seed project. This the simplest possible setup for getting started with Angular 2.
+A minimal Angular 2 seed project. This is the simplest possible setup for getting started with Angular 2. Its ideal for use as a playground for quickly trying out a concept.
 
 # Installation 
 
