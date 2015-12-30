@@ -1,5 +1,5 @@
 # ng2-minimal
-A minimal Angular 2 seed project with source maps support out of the box.
+A minimal Angular 2 seed project. This the simplest possible setup for getting started with Angular 2.
 
 # Installation 
 
