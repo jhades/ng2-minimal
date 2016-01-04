@@ -1,7 +1,7 @@
 # ng2-minimal
 A minimal Angular 2 seed project. This is the simplest possible setup for getting started with Angular 2. Its ideal for use as a learning playground for quickly trying out an idea or building a component.
 
-Clone it and start using Angular 2 in seconds.
+Clone it and start using Angular 2 in seconds!
 
 ## Webpack alternative
 If you prefer Webpack, check the alternative [ng2-webpack-minimal](https://github.com/jhades/ng2-webpack-minimal) project.
