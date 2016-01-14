@@ -17,7 +17,7 @@ After cloning the repo, run the following commands:
     npm install
     npm start 
     
-Note: you can safelly ignore the warnings about missing peer dependencies, as we are using the `angular2-polyfills.js` bundle.    
+You can safelly ignore the warnings about missing peer dependencies, as we are using the `angular2-polyfills.js` bundle.    
     
 Open a browser at the following url:
 
