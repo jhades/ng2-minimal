@@ -4,6 +4,7 @@
   "description": "A minimal Angular 2 seed with source maps support ",
   "main": "index.js",
   "scripts": {
+    "postinstall": "./node_modules/.bin/typings install",
     "watch": "tsc -w",
     "serve": "http-server -c-1 .",
     "start": "npm-run-all -p watch serve "
@@ -19,13 +20,18 @@
   },
   "homepage": "https://github.com/jhades/ng2-minimal#readme",
   "devDependencies": {
-    "http-server": "^0.8.5",
-    "npm-run-all": "^1.2.13",
-    "typescript": "^1.6.2"
+    "http-server": "^0.9.0",
+    "npm-run-all": "^1.8.0",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
   },
   "dependencies": {
-    "angular2": "2.0.0-beta.11",
-    "rxjs": "5.0.0-beta.2",
-    "systemjs": "~0.19.13"
+    "@angular/common": "^2.0.0-rc.0",
+    "@angular/compiler": "^2.0.0-rc.0",
+    "@angular/core": "^2.0.0-rc.0",
+    "@angular/platform-browser": "^2.0.0-rc.0",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.0",
+    "rxjs": "5.0.0-beta.6",
+    "systemjs": "^0.19.27"
   }
 }
