@@ -3,9 +3,6 @@ A minimal Angular 2 seed project. This is the simplest possible setup for gettin
 
 Clone it and start using Angular 2 in seconds!
 
-## Webpack alternative
-If you prefer Webpack, check the alternative [ng2-webpack-minimal](https://github.com/jhades/ng2-webpack-minimal) project.
-
 # Installation 
 
 Its better to install Typescript globally, if not already installed:
