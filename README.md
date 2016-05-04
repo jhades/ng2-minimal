@@ -29,8 +29,7 @@ And there you have it, a minimal Angular 2 App up and running. You're all set!
     
 # Credit
 
-This repo is based on the RC0 [demo](https://github.com/robwormald/new-world-test) made by [Rob Wormald](https://twitter.com/robwormald). Go check it out for other examples,
- like Webpack 2 and others.
+This repo is based on the RC0 [demo](https://github.com/robwormald/new-world-test) made by [Rob Wormald](https://twitter.com/robwormald). Go check it out for other examples  (like Webpack 2).
 
 This repo was originally based on the [ng2-play seed repo](https://github.com/pkozlowski-opensource/ng2-play), check it out.
 
