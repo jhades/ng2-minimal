@@ -16,11 +16,7 @@ Clone it and start using Angular 2 in seconds!
 
 # Installation 
 
-Its better to install Typescript globally, if not already installed:
-
-    npm install -g typescript
-
-After cloning the repo, run the following commands:
+No global dependencies are needed. After cloning the repo, run the following commands:
 
     npm install
     npm start 
@@ -33,5 +29,8 @@ And there you have it, a minimal Angular 2 App up and running. You're all set!
     
 # Credit
 
-This repo is based on the [ng2-play seed repo](https://github.com/pkozlowski-opensource/ng2-play), check it out.
+This repo is based on the RC0 [demo](https://github.com/robwormald/new-world-test) made by [Rob Wormald](https://twitter.com/robwormald). Go check it out for other examples,
+ like Webpack 2 and others.
+
+This repo was originally based on the [ng2-play seed repo](https://github.com/pkozlowski-opensource/ng2-play), check it out.
 
