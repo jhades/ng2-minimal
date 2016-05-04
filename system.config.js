@@ -5,9 +5,6 @@ System.config({
         'app': 'dist'
     },
     packages: {
-        'app': {
-            main: 'hello_world'
-        },
         '@angular/core': {
             main: 'index'
         },
@@ -24,7 +21,10 @@ System.config({
             main: 'index'
         },
         'rxjs': {
-            defaultExtension: 'js'
+            main: "Rx"
+        },
+        'app': {
+            main: 'hello_world'
         }
     }
-})
+});

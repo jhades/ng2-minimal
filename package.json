@@ -5,10 +5,13 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "./node_modules/.bin/typings install",
-    "watch": "./node_modules/.bin/tsc -w",
-    "libs-bundle": "node bundle.js",
+    "libs-bundle": "node libs-bundle.js",
+    "app-bundle": "node app-bundle.js",
+    "build": "./node_modules/.bin/tsc",
+    "build-all": "npm-run-all build libs-bundle app-bundle",
+    "watch": "npm-run-all build app-bundle",
     "serve": "./node_modules/.bin/http-server -c-1 .",
-    "start": "npm-run-all libs-bundle -p watch serve "
+    "start": "npm-run-all build-all  -p serve "
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,7 @@
   "homepage": "https://github.com/jhades/ng2-minimal#readme",
   "devDependencies": {
     "http-server": "^0.9.0",
+    "nodemon": "^1.9.2",
     "npm-run-all": "^1.8.0",
     "systemjs-builder": "^0.15.16",
     "typescript": "^1.8.10",
