@@ -9,10 +9,10 @@
     "app-bundle": "node app-bundle.js",
     "build-ts": "./node_modules/.bin/tsc",
     "build-app": "npm-run-all build-ts app-bundle",
-    "build-all": "npm-run-all build-ts libs-bundle app-bundle",
+    "build-lib": "npm-run-all libs-bundle",
     "watch": " ./node_modules/.bin/nodemon -V -w src --ext \".ts\" --exec \"npm run build-app\"",
     "serve": "./node_modules/.bin/http-server -c-1 .",
-    "start": "npm-run-all build-all  -p watch serve "
+    "start": "npm-run-all build-ts build-lib  -p watch serve "
   },
   "repository": {
     "type": "git",
