@@ -1,6 +1,6 @@
 
-import {Component} from '@angular/core';
-import {bootstrap} from '@angular/platform-browser-dynamic';
+import {Component} from "@angular/core";
+import {bootstrap} from "@angular/platform-browser-dynamic";
 
 @Component({
     selector: 'hello-world',
@@ -8,7 +8,7 @@ import {bootstrap} from '@angular/platform-browser-dynamic';
 })
 export class HelloWorld {
 
-    private message = "";
+    private message = ""; 
 
     hello(value) {
         this.message = value;
