@@ -6,6 +6,7 @@
   "scripts": {
     "postinstall": "./node_modules/.bin/typings install",
     "watch": "tsc -w",
+    "bundle": "node bundle.js",
     "serve": "http-server -c-1 .",
     "start": "npm-run-all -p watch serve "
   },
@@ -22,6 +23,7 @@
   "devDependencies": {
     "http-server": "^0.9.0",
     "npm-run-all": "^1.8.0",
+    "systemjs-builder": "^0.15.16",
     "typescript": "^1.8.10",
     "typings": "^0.8.1"
   },
