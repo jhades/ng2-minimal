@@ -7,11 +7,12 @@
     "postinstall": "./node_modules/.bin/typings install",
     "libs-bundle": "node libs-bundle.js",
     "app-bundle": "node app-bundle.js",
-    "build": "./node_modules/.bin/tsc",
-    "build-all": "npm-run-all build libs-bundle app-bundle",
-    "watch": "npm-run-all build app-bundle",
+    "build-ts": "./node_modules/.bin/tsc",
+    "build-app": "npm-run-all build-ts app-bundle",
+    "build-all": "npm-run-all build-ts libs-bundle app-bundle",
+    "watch": "nodemon -V -w src --ext \".ts\" --exec \"npm run build-app\"",
     "serve": "./node_modules/.bin/http-server -c-1 .",
-    "start": "npm-run-all build-all  -p serve "
+    "start": "npm-run-all build-all  -p watch serve "
   },
   "repository": {
     "type": "git",

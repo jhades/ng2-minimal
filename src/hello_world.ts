@@ -11,6 +11,7 @@ export class HelloWorld {
     private message = ""; 
 
     hello(value) {
+        console.log("Hello World !");
         this.message = value;
     }
 
