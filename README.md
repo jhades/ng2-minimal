@@ -1,8 +1,10 @@
 # ng2-minimal
 A minimal Angular 2 seed project. This is the simplest possible setup for getting started with Angular 2 using the SystemJs module loader. Its ideal for use as a learning playground for quickly trying out an idea or building a component.
 
-THe way that it works is that there are two bundles: the dependencies bundle that only gets build once,
-and the application bundle, that gets rebuilt everytime you edit a Typescript file.
+The way that it works is that there are two bundles:
+
+ - the dependencies bundle that only gets build once
+-  the application bundle, that gets rebuilt everytime you edit a Typescript file
 
 This makes for a good first experience in Angular 2: The application starts up fast, and there are only a few network requests.
 But still iterative development is available: just hit Ctrl+S and your changes are applied.
