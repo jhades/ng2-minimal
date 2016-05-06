@@ -11,6 +11,6 @@
   },
   "files": [
     "typings/main.d.ts",
-    "src/hello_world.ts"
+    "src/app.ts"
   ]
 }

@@ -24,7 +24,7 @@ System.config({
             main: "Rx"
         },
         'app': {
-            main: 'hello_world'
+            main: 'app'
         }
     }
 });
