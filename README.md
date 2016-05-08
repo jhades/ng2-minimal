@@ -26,7 +26,15 @@ Then open a browser at the following url:
     http://localhost:8080
         
 And there you have it, a minimal Angular 2 App up and running. You're all set!
-    
+
+# Scope
+This repo is meant a starter for learning purposes, not to bootstrap an application. This repo aims at being at the sweet spot for a beginner for an introduction to the Angular 2 ecosystem - a simple example that still already uses the Typescript compiler, SystemJs and the SystemJs builder. 
+
+For bootstrapping an app, please use the official [angular-cli](https://cli.angular.io/). If the CLI is still in early stages, these are the most popular starters kits:
+
+- Based on SystemJs, SystemJs-Builder and Gulp - [ng2-seed](https://github.com/mgechev/angular2-seed) 
+- Based on Webpack - [angular2-webpack-starter](https://github.com/AngularClass/angular2-webpack-starter)
+
 # Credit
 
 This repo is based on the RC0 [demo](https://github.com/robwormald/new-world-test) made by [Rob Wormald](https://twitter.com/robwormald). Go check it out for other examples  (like Webpack 2).
