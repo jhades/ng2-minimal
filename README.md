@@ -28,7 +28,7 @@ Then open a browser at the following url:
 And there you have it, a minimal Angular 2 App up and running. You're all set!
 
 # Scope
-This repo is meant a starter for learning purposes, not to bootstrap an application. This repo aims at being at the sweet spot for a beginner for an introduction to the Angular 2 ecosystem - a simple example that still already uses the Typescript compiler, SystemJs and the SystemJs builder. 
+This repo is meant a starter for learning purposes only. This repo aims at being at the sweet spot for a beginner for an introduction to the Angular 2 ecosystem - a simple example that still already uses the Typescript compiler, SystemJs and the SystemJs builder. 
 
 For bootstrapping an app, please use the official [angular-cli](https://cli.angular.io/). If the CLI is still in early stages, these are the most popular starters kits:
 
