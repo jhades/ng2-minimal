@@ -1,7 +1,7 @@
 {
   "name": "ng2-minimal",
   "version": "1.0.0",
-  "description": "Angular 2 Hello World with Typescript and SystemJs ",
+  "description": "Angular 2 Playground with Typescript and SystemJs ",
   "main": "index.js",
   "scripts": {
     "postinstall": "./node_modules/.bin/typings install",
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/jhades/ng2-minimal.git"
   },
-  "author": "jhades.dev@gmail.com",
+  "author": "contact@angular-academy.io",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jhades/ng2-minimal/issues"
