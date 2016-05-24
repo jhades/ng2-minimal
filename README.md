@@ -3,7 +3,7 @@ A minimal Angular 2 seed project. This is the simplest possible setup for gettin
 
 This repo is meant as a starting point for learning purposes only. It aims at being at the sweet spot for giving the beginner a gentle introduction to parts of the Angular 2 ecosystem - a simple example that still already uses the Typescript compiler, SystemJs and the SystemJs builder.
 
-This build is both simple but still already has a lot of features and tools without being overwhelming,
+This build is simple but still already has a lot of features and tools without being overwhelming,
  and it allows to get a feel for what the development Ecosystem of the framework looks like right off the bat.
 
 The way that it works is the following:
