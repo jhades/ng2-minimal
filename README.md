@@ -54,13 +54,6 @@ This repo is based on the RC0 [demo](https://github.com/robwormald/new-world-tes
 This repo was originally based on the [ng2-play seed repo](https://github.com/pkozlowski-opensource/ng2-play), check it out.
 
 
-## Brought to you by the Angular University
-
-Have a look at our course pipeline at [angular-university.io](https://angular-university.io/), this is the [Angular 2 For Beginners course](https://angular-university.io/course/getting-started-with-angular2):
-
-![Angular 2 For Beginners Course](https://angular-academy.s3.amazonaws.com/angular2-for-beginners.png)
-
-
 
 
 
