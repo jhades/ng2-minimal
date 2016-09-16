@@ -1,3 +1,9 @@
+
+# This repository is deprecated
+
+I suggest using the Angular CLI Webpack version instead, see [here](https://www.youtube.com/watch?v=YAfwASGlLNQ) for a demo.
+
+
 # ng2-minimal
 A minimal Angular 2 seed project. This is the simplest possible setup for getting started with Angular 2 using the SystemJs module loader.
 
